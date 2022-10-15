@@ -1,0 +1,58 @@
+.task {
+  width: 100%;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.task p {
+  font-size: 0.875rem;
+  line-height: 1.18rem;
+  color: var(--gray-100);
+  margin-right: auto;
+}
+
+p.textCompleted {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.checkContainer {
+  min-width: 1.125rem;
+  height: 1.125rem;
+  background: none;
+  border: none;
+}
+
+.circle {
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+}
+
+.circle circle {
+  display: none;
+}
+
+.checkCicle {
+  border-radius: 50%;
+  background: var(--purple);
+  color: var(--purple);
+}
+
+.checkCicle polyline {
+  color: var(--gray-100);
+}
+
+.trash {
+  background: none;
+  border: none;
+}
+
+.trash svg {
+  color: var(--gray-300);
+}
